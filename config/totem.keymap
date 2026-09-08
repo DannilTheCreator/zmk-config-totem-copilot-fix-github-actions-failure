@@ -71,16 +71,16 @@ label= "BASE"                              ;
 
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     Q     ┃     W     ┃     E     ┃     R     ┃     T     ┃   ┃     Y     ┃     U     ┃     I     ┃     O     ┃     P     ┃
-               &kp Q      &kp W      &kp E      &kp R      &kp T                   &kp Y      &kp U      &kp I      &kp O      &kp P
+                    &kp Q      &kp W       &kp E       &kp R      &kp T            &kp Y      &kp U      &kp I      &kp O      &kp P
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
-                &mt LGUI A &mt LALT S    &kp D    &mt LSHFT F   &kp G          &kp H    &mt RSHFT J &mt RCTRL K &mt RALT L &mt RGUI SEMI
+                &mt LGUI A   &mt LALT S    &kp D    &mt LSHFT F   &kp G            &kp H    &mt RSHFT J &mt RCTRL K  &mt RALT L &mt RGUI SEMI
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃     "     ┃
-              &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA &kp DOT    &kp FSLH   &kp BSLH
+     &trans        &kp Z      &kp X      &kp C        &kp V        &kp B          &kp N      &kp M      &kp COMMA     &kp DOT     &kp FSLH    &kp BSLH
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃    ESC    ┃   BSPC    ┃
-                                       &kp DEL    &lt NAV TAB &kp SPACE      &kp RET    &lt SYM ESC &kp BSPC
+                                          &kp DEL    &lt NAV TAB &kp SPACE      &kp RET    &lt SYM ESC &kp BSPC
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
           >;
                 };
@@ -96,10 +96,10 @@ label= "NAVI"                              ;
  bindings = <
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
 //             ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0        ┃
-               &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
+                 &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
 //             ┃   SHIFT   ┃           ┃           ┃           ┃     [     ┃   ┃     ←     ┃     ↓     ┃     ↑     ┃     →     ┃     -        ┃
-               &kp LSHFT    &trans      &trans      &trans      &kp LBKT        &kp LEFT   &kp DOWN     &kp UP     &kp RIGHT  &kp KP_MINUS
+                  &kp LSHFT    &trans      &trans      &trans      &kp LBKT        &kp LEFT   &kp DOWN     &kp UP     &kp RIGHT  &kp KP_MINUS
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃   P UP    ┃  C LOCK   ┃  P DOWN   ┃     (     ┃   ┃     )     ┃           ┃           ┃           ┃     *        ┃           ┃
     &trans        &trans      &kp PG_UP  &kp CAPS   &kp PG_DN  &kp LPAR        &kp RPAR    &trans       &trans       &trans     &kp KP_MULTIPLY  &trans
